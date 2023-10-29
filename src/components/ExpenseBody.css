@@ -1,0 +1,11 @@
+.expenseBody{
+    margin:auto;
+    width:90vw;
+    min-height:100px;
+    border: 2px solid black;
+  
+  
+}
+.expenseBody_title{
+    text-align: center;
+}

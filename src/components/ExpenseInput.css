@@ -1,0 +1,23 @@
+.expenseInput{
+width:50vw;
+height:150px;
+padding:20px;
+background-color: rgb(231, 229, 229);
+display:flex;
+flex-direction: column;
+justify-content:space-around;
+text-align: center;
+margin:auto
+}
+.expenseInput_submit{
+width:70px;
+align-self: center;
+background-color: rgb(127, 192, 192);
+color:white;
+}
+.expenseInput_expensePriceInput,.expenseInput_expenseNameInput{
+    width:300px;
+    align-self:center ;
+    text-align: center;
+
+}

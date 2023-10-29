@@ -1,0 +1,32 @@
+.expenseList_expenses{
+    height:40px;
+    border:2px solid blue;
+    margin: 5px;
+list-style-type: none;
+
+display:flex;
+justify-content: space-around;
+
+
+
+}
+.expenseList_expenses a{
+    color:red;
+}
+.expenseList{
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction: column;
+    font-size: 20px;
+   
+    
+}
+.expenseNameSpan{
+   
+}
+.expensePriceSpan{
+
+
+
+}

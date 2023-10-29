@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+import ExpenseBody from './components/ExpenseBody';
+import ExpenseInput from './components/ExpenseInput';
 import './App.css';
 
 function App() {
+
+let array=[{name:"ok",price:"12"},{name:"ok",price:"12"},{name:"ok",price:"12"},{name:"ok",price:"12"},{name:"ok",price:"12"}]
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div className='mainPage'>
+      <h1 className='mainPage_title'>EXPENSE TRACKER</h1>
+       <ExpenseInput/>                 
+      <ExpenseBody expenses={array}/>
     </div>
+  
   );
 }
 
