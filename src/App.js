@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
 
-let array=[{name:"ok",price:"12"},{name:"ok",price:"12"},{name:"ok",price:"12"},{name:"ok",price:"12"},{name:"ok",price:"12"}]
+let array=[{name:"ok",price:"11"},{name:"ok",price:"12"},{name:"ok",price:"13"},{name:"ok",price:"14"},{name:"ok",price:"15"}]
 
   return (
     
