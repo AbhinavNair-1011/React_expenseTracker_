@@ -3,7 +3,6 @@ import "./ExpenseItem.css"
 import DeleteButton from './DeleteButton'
 
 function ExpenseItem(props) {
-    console.log(props)
     
   return (
     <div>
@@ -11,8 +10,8 @@ function ExpenseItem(props) {
           
         {props.expenses.map((item)=>(
 
-                <li key={item.price} className='expenseList_expenses'><span className="expenseNameSpan">{item.name}</span> 
-                <span className="expensePriceSpan ">{item.price}</span> <DeleteButton/></li>
+                <li key={item.expensePrice} className='expenseList_expenses'><span className="expenseNameSpan">{item.expenseName}</span> 
+                <span className="expensePriceSpan ">{item.expensePrice}</span> <DeleteButton deleteExpense={props.deleteExpense}/></li>
                
         ))}
         </ul>

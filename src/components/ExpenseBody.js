@@ -8,7 +8,7 @@ function ExpenseBody(props) {
     <div className="expenseBody">
       
        <h2 className="expenseBody_title"> Monthly Expenses</h2>
-       <ExpenseItem expenses={props.expenses}/>
+       <ExpenseItem deleteExpense={props.deleteExpense} expenses={props.expenses}/>
 
     </div>
   )
